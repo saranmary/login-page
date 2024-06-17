@@ -1,0 +1,127 @@
+body{
+  height: 100vh;
+  background: linear-gradient(to bottom right,#E26EE5 40%,#7E30E1 60%);
+  background-repeat: no-repeat;
+}
+
+.container{
+  background-color: transparent;
+  width: 350px;
+  position: relative;
+  left: 450px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  box-shadow: 3px 3px #9763dc;
+}
+
+h1{
+  font-family:  "Indie Flower", cursive;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+  color: rgb(17, 73, 177);
+}
+
+h1:hover{
+  font-size: 38px;
+}
+
+.inputbox{
+  margin: 20px 0;
+  height: 40px;
+}
+
+.inputbox input{
+  color: azure;
+  background-color: transparent;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 20px;
+  outline: none;
+}
+
+.inputbox input::placeholder{
+  color: azure;
+}
+
+button{
+  background-color: transparent;
+  color: aliceblue;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.horizontal{
+  display: flex;
+  margin: 30px 0;
+  color: whitesmoke;
+}
+
+.horizontal hr{
+  width: 150px; 
+}
+
+.fb{
+  display: flex;
+  justify-content: center;
+}
+
+.fb a{
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0 3px; 
+}
+
+.fb:hover{
+  font-size: 18px;
+}
+
+.forgot{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.forgot a{
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.signup{
+  text-align: center;
+  color: azure;
+}
+
+.signup a:hover{
+  font-size: 17px;
+}
+
+.signup a{
+  text-decoration: none;
+  font-weight: 700;
+}
+
+@media (max-width: 1800px) {
+  .container {
+    width: 90%;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
